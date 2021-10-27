@@ -15409,7 +15409,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
 <text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
 </package>
-<package name="0603">
+<package name="0603" urn="urn:adsk.eagle:footprint:39615/1" library_version="1">
 <description>&lt;p&gt;&lt;b&gt;Generic 1608 (0603) package&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
 <wire x1="-1.6" y1="0.7" x2="1.6" y2="0.7" width="0.0508" layer="39"/>
@@ -17458,8 +17458,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
 <wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
 <wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
-<text x="-2.54" y="2.54" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-2.54" y="-2.54" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+<text x="0" y="2.794" size="1.778" layer="95" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="-2.794" size="1.778" layer="96" font="vector" align="center">&gt;VALUE</text>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 <wire x1="-0.762" y1="0" x2="1.016" y2="0" width="0.254" layer="94"/>
@@ -17471,8 +17471,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
 <wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
 <wire x1="-0.762" y1="0" x2="1.016" y2="0" width="0.254" layer="94"/>
-<text x="-2.54" y="2.54" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-2.54" y="-2.54" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+<text x="0" y="3.048" size="1.778" layer="95" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="-3.048" size="1.778" layer="96" font="vector" align="center">&gt;VALUE</text>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
@@ -17481,8 +17481,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
 <wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
 <wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
-<text x="-2.54" y="2.54" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-2.54" y="-2.54" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+<text x="0" y="2.794" size="1.778" layer="95" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="-2.794" size="1.778" layer="96" font="vector" align="center">&gt;VALUE</text>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
@@ -17696,6 +17696,77 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="LED-YELLOW" prefix="D" uservalue="yes">
+<description>&lt;h3&gt;Yellow SMD LED&lt;/h3&gt;
+
+Used in manufacturing several products at SparkFun. 
+
+&lt;p&gt;&lt;b&gt;Packages:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;b&gt; 0603&lt;/b&gt; -  SMD 0603  package&lt;a href=http://www.kingbrightusa.com/product.asp?catalog_name=LED&amp;product_id=APT1608SYCK"&gt;[Product Link]&lt;/li&gt;
+&lt;li&gt;&lt;b&gt; 0603 -SMART&lt;/b&gt; - SMART SMD 0603  package (more efficient/more expensive) &lt;a href="http://www.osram-os.com/osram_os/en/products/product-catalog/led-light-emitting-diodes/smartled-0603/ly-l29k/index.jsp"&gt;[Product Link]&lt;/li&gt;
+&lt;li&gt;&lt;b&gt; LilyPad&lt;/b&gt; - SMD1206  package&lt;a href="https://www.sparkfun.com/datasheets/DevTools/LilyPad/Q150YUS4.pdf"&gt;[Product Datasheet]&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+
+
+&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13794”&gt;Blynk Board&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13613”&gt;IOIO-OTG&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13225”&gt;XBee Explorer Serial&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="LILYPAD" package="LED-1206">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-09909"/>
+<attribute name="VALUE" value="Yellow" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0603" package="LED-0603">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-09003"/>
+<attribute name="VALUE" value="Yellow" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0603-SMART" package="LED-0603">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-11230" constant="no"/>
+<attribute name="VALUE" value="Yellow" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_HIDDENSILK" package="LED-1206-HIDDENSILK">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-09909" constant="no"/>
+<attribute name="VALUE" value="YELLOW" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="LED-RED" prefix="D" uservalue="yes">
 <description>&lt;h3&gt;Red SMD LED&lt;/h3&gt;
 &lt;p&gt;Used in manufacturing of most products at SparkFun&lt;/p&gt;
@@ -19756,6 +19827,7 @@ Out</text>
 <pin name="EEPROM_A1" x="-17.78" y="-15.24" length="short"/>
 <pin name="EEPROM_A2" x="-17.78" y="-17.78" length="short"/>
 <pin name="G7" x="17.78" y="-30.48" length="short" rot="R180"/>
+<pin name="EEPROM_WP" x="-17.78" y="-20.32" length="short"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -19777,6 +19849,7 @@ Out</text>
 <connect gate="J1" pin="EEPROM_A0" pad="36"/>
 <connect gate="J1" pin="EEPROM_A1" pad="34"/>
 <connect gate="J1" pin="EEPROM_A2" pad="32"/>
+<connect gate="J1" pin="EEPROM_WP" pad="40"/>
 <connect gate="J1" pin="G0/!INT!" pad="47"/>
 <connect gate="J1" pin="G1/!CS!" pad="49"/>
 <connect gate="J1" pin="G2/PWM" pad="51"/>
@@ -19815,6 +19888,7 @@ Out</text>
 <connect gate="J1" pin="EEPROM_A0" pad="36"/>
 <connect gate="J1" pin="EEPROM_A1" pad="34"/>
 <connect gate="J1" pin="EEPROM_A2" pad="32"/>
+<connect gate="J1" pin="EEPROM_WP" pad="40"/>
 <connect gate="J1" pin="G0/!INT!" pad="47"/>
 <connect gate="J1" pin="G1/!CS!" pad="49"/>
 <connect gate="J1" pin="G2/PWM" pad="51"/>
@@ -19855,6 +19929,7 @@ Out</text>
 <connect gate="J1" pin="EEPROM_A0" pad="36"/>
 <connect gate="J1" pin="EEPROM_A1" pad="34"/>
 <connect gate="J1" pin="EEPROM_A2" pad="32"/>
+<connect gate="J1" pin="EEPROM_WP" pad="40"/>
 <connect gate="J1" pin="G0/!INT!" pad="47"/>
 <connect gate="J1" pin="G1/!CS!" pad="49"/>
 <connect gate="J1" pin="G2/PWM" pad="51"/>
@@ -19893,6 +19968,7 @@ Out</text>
 <connect gate="J1" pin="EEPROM_A0" pad="36"/>
 <connect gate="J1" pin="EEPROM_A1" pad="34"/>
 <connect gate="J1" pin="EEPROM_A2" pad="32"/>
+<connect gate="J1" pin="EEPROM_WP" pad="40"/>
 <connect gate="J1" pin="G0/!INT!" pad="47"/>
 <connect gate="J1" pin="G1/!CS!" pad="49"/>
 <connect gate="J1" pin="G2/PWM" pad="51"/>
@@ -19931,6 +20007,7 @@ Out</text>
 <connect gate="J1" pin="EEPROM_A0" pad="36"/>
 <connect gate="J1" pin="EEPROM_A1" pad="34"/>
 <connect gate="J1" pin="EEPROM_A2" pad="32"/>
+<connect gate="J1" pin="EEPROM_WP" pad="40"/>
 <connect gate="J1" pin="G0/!INT!" pad="47"/>
 <connect gate="J1" pin="G1/!CS!" pad="49"/>
 <connect gate="J1" pin="G2/PWM" pad="51"/>
@@ -20172,6 +20249,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-5.5" y1="-7" x2="5.5" y2="-7" width="0.1778" layer="21"/>
 <wire x1="-5.5" y1="7" x2="5.5" y2="7" width="0.1778" layer="21"/>
 <wire x1="10.6" y1="-7" x2="10.6" y2="7" width="0.1778" layer="21"/>
+<circle x="-10.414" y="-7.62" radius="0.127" width="0.254" layer="21"/>
 </package>
 <package name="AG980X">
 <wire x1="-14.25" y1="9.25" x2="14.25" y2="9.25" width="0.05" layer="51"/>
@@ -21539,12 +21617,12 @@ This is a single port, RJ45 ethernet jacks with built in transformer (magnetics)
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".1_INCH"/>
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
-<part name="MEAS" library="SparkFun-Jumpers" deviceset="JUMPER-COMBO_2_NC_TRACE" device="" value=""/>
+<part name="MEAS" library="SparkFun-Jumpers" deviceset="JUMPER-COMBO_2_NC_TRACE" device="" value="JUMPER-COMBO_2_NC_TRACE"/>
 <part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="LOGO3" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="MINI"/>
-<part name="POE_LED" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value=""/>
+<part name="POE_LED" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK"/>
 <part name="R11" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="1k"/>
-<part name="D5" library="SparkFun-LED" deviceset="LED-RED" device="0603" value="RED"/>
+<part name="D5" library="SparkFun-LED" deviceset="LED-YELLOW" device="0603" value="Yellow"/>
 <part name="GND27" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
@@ -21600,16 +21678,16 @@ This is a single port, RJ45 ethernet jacks with built in transformer (magnetics)
 <part name="C17" library="SparkFun-Capacitors" deviceset="10NF" device="-0603-50V-10%" value="10nF"/>
 <part name="GND18" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R9" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
-<part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value=""/>
+<part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value="JUMPER-SMT_2_NO_SILK"/>
 <part name="GND19" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY14" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="R10" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="SUPPLY15" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="R12" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="SUPPLY16" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="JP2" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value=""/>
+<part name="JP2" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value="JUMPER-SMT_2_NO_SILK"/>
 <part name="GND20" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="JP3" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value=""/>
+<part name="JP3" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value="JUMPER-SMT_2_NO_SILK"/>
 <part name="GND23" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C18" library="SparkFun-Capacitors" deviceset="4.7UF" device="-0603-6.3V-(10%)" value="4.7uF"/>
 <part name="GND24" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -21648,10 +21726,10 @@ This is a single port, RJ45 ethernet jacks with built in transformer (magnetics)
 <part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND29" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND30" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="ISO1" library="SparkFun-Jumpers" deviceset="JUMPER-COMBO_2_NC_TRACE" device="" value=""/>
-<part name="LOAD" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value=""/>
+<part name="ISO1" library="SparkFun-Jumpers" deviceset="JUMPER-COMBO_2_NC_TRACE" device="" value="JUMPER-COMBO_2_NC_TRACE"/>
+<part name="LOAD" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK"/>
 <part name="GND31" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="ISO2" library="SparkFun-Jumpers" deviceset="JUMPER-COMBO_2_NC_TRACE" device="" value=""/>
+<part name="ISO2" library="SparkFun-Jumpers" deviceset="JUMPER-COMBO_2_NC_TRACE" device="" value="JUMPER-COMBO_2_NC_TRACE"/>
 <part name="R22" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="JP5" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1"/>
@@ -21665,6 +21743,11 @@ This is a single port, RJ45 ethernet jacks with built in transformer (magnetics)
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="R30" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="GND32" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="PWR_LED" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK"/>
+<part name="R25" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="1k"/>
+<part name="D2" library="SparkFun-LED" deviceset="LED-RED" device="0603" value="RED"/>
+<part name="GND33" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="SUPPLY5" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -21674,7 +21757,7 @@ This is a single port, RJ45 ethernet jacks with built in transformer (magnetics)
 <text x="68.834" y="121.666" size="2.54" layer="94" font="vector" align="center">MicroMod Function Connector</text>
 <text x="177.8" y="119.38" size="1.778" layer="97" font="vector" align="center">5V is isolated but noisy</text>
 <text x="348.234" y="11.176" size="2.54" layer="94">N. Seidle</text>
-<text x="421.894" y="6.096" size="2.54" layer="94">x01</text>
+<text x="421.894" y="6.096" size="2.54" layer="94">v10</text>
 <text x="78.74" y="264.16" size="2.54" layer="94" font="vector" align="center">W5500 Ethernet PHY/MAC</text>
 <wire x1="180.34" y1="137.16" x2="330.2" y2="137.16" width="0.2032" layer="97" style="longdash"/>
 <text x="307.594" y="124.206" size="2.54" layer="94" font="vector" align="center">Power Enable</text>
@@ -21685,8 +21768,8 @@ This is a single port, RJ45 ethernet jacks with built in transformer (magnetics)
 <wire x1="431.8" y1="137.16" x2="330.2" y2="137.16" width="0.2032" layer="97" style="longdash"/>
 <wire x1="180.34" y1="137.16" x2="0" y2="137.16" width="0.2032" layer="97" style="longdash"/>
 <wire x1="330.2" y1="137.16" x2="330.2" y2="279.4" width="0.2032" layer="97" style="longdash"/>
-<text x="53.34" y="284.48" size="1.27" layer="91">Replace load R with 50 Ohm</text>
 <text x="236.22" y="71.12" size="1.778" layer="97" font="vector" align="center">Dummy Load: 100mA</text>
+<text x="53.34" y="287.02" size="1.27" layer="91">Add EEPROM WP connection</text>
 </plain>
 <instances>
 <instance part="C13" gate="G$1" x="368.3" y="99.06" smashed="yes">
@@ -21769,28 +21852,28 @@ This is a single port, RJ45 ethernet jacks with built in transformer (magnetics)
 <instance part="GND4" gate="1" x="358.14" y="91.44" smashed="yes">
 <attribute name="VALUE" x="358.14" y="91.186" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="U1" gate="G$1" x="53.34" y="50.8" smashed="yes" rot="MR0">
-<attribute name="NAME" x="45.974" y="58.928" size="1.778" layer="95"/>
-<attribute name="VALUE" x="45.72" y="43.18" size="1.778" layer="96"/>
+<instance part="U1" gate="G$1" x="45.72" y="50.8" smashed="yes" rot="MR0">
+<attribute name="NAME" x="38.354" y="58.928" size="1.778" layer="95"/>
+<attribute name="VALUE" x="38.1" y="43.18" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY6" gate="G$1" x="40.64" y="58.42" smashed="yes">
-<attribute name="VALUE" x="40.64" y="61.214" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY6" gate="G$1" x="33.02" y="58.42" smashed="yes">
+<attribute name="VALUE" x="33.02" y="61.214" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="GND8" gate="1" x="66.04" y="43.18" smashed="yes">
-<attribute name="VALUE" x="66.04" y="42.926" size="1.778" layer="96" align="top-center"/>
+<instance part="GND8" gate="1" x="58.42" y="43.18" smashed="yes">
+<attribute name="VALUE" x="58.42" y="42.926" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND9" gate="1" x="35.56" y="30.48" smashed="yes">
-<attribute name="VALUE" x="35.56" y="30.226" size="1.778" layer="96" align="top-center"/>
+<instance part="GND9" gate="1" x="27.94" y="30.48" smashed="yes">
+<attribute name="VALUE" x="27.94" y="30.226" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SUPPLY7" gate="G$1" x="15.24" y="55.88" smashed="yes">
-<attribute name="VALUE" x="15.24" y="58.674" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY7" gate="G$1" x="7.62" y="55.88" smashed="yes">
+<attribute name="VALUE" x="7.62" y="58.674" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="C4" gate="G$1" x="15.24" y="48.26" smashed="yes" rot="MR0">
-<attribute name="NAME" x="16.764" y="51.054" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="16.51" y="46.228" size="1.778" layer="96" font="vector"/>
+<instance part="C4" gate="G$1" x="7.62" y="48.26" smashed="yes" rot="MR0">
+<attribute name="NAME" x="9.144" y="51.054" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="8.89" y="46.228" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="GND10" gate="1" x="15.24" y="40.64" smashed="yes">
-<attribute name="VALUE" x="15.24" y="40.386" size="1.778" layer="96" align="top-center"/>
+<instance part="GND10" gate="1" x="7.62" y="40.64" smashed="yes">
+<attribute name="VALUE" x="7.62" y="40.386" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="LOGO2" gate="G$1" x="408.94" y="22.86" smashed="yes"/>
 <instance part="U3" gate="U1" x="142.24" y="228.6" smashed="yes">
@@ -22112,15 +22195,15 @@ This is a single port, RJ45 ethernet jacks with built in transformer (magnetics)
 <attribute name="NAME" x="154.686" y="103.378" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="154.94" y="99.06" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
-<instance part="R22" gate="G$1" x="35.56" y="60.96" smashed="yes" rot="R270">
-<attribute name="NAME" x="31.496" y="61.214" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="31.496" y="58.674" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
+<instance part="R22" gate="G$1" x="27.94" y="60.96" smashed="yes" rot="R270">
+<attribute name="NAME" x="23.876" y="61.214" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="23.876" y="58.674" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
 </instance>
-<instance part="SUPPLY1" gate="G$1" x="35.56" y="68.58" smashed="yes">
-<attribute name="VALUE" x="35.56" y="71.374" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY1" gate="G$1" x="27.94" y="68.58" smashed="yes">
+<attribute name="VALUE" x="27.94" y="71.374" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="JP5" gate="G$1" x="35.56" y="40.64" smashed="yes" rot="R90">
-<attribute name="NAME" x="33.02" y="38.1" size="1.778" layer="95" font="vector" rot="R90"/>
+<instance part="JP5" gate="G$1" x="27.94" y="40.64" smashed="yes" rot="R90">
+<attribute name="NAME" x="25.4" y="38.1" size="1.778" layer="95" font="vector" rot="R90"/>
 </instance>
 <instance part="Q1" gate="NMOS" x="304.8" y="83.82" smashed="yes">
 <attribute name="NAME" x="309.88" y="83.82" size="1.778" layer="95" font="vector"/>
@@ -22159,6 +22242,24 @@ This is a single port, RJ45 ethernet jacks with built in transformer (magnetics)
 </instance>
 <instance part="GND32" gate="1" x="119.38" y="193.04" smashed="yes">
 <attribute name="VALUE" x="119.38" y="192.786" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="PWR_LED" gate="G$1" x="421.64" y="106.68" smashed="yes" rot="R90">
+<attribute name="NAME" x="419.608" y="101.854" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="424.18" y="96.52" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+</instance>
+<instance part="R25" gate="G$1" x="421.64" y="93.98" smashed="yes" rot="R90">
+<attribute name="NAME" x="420.116" y="93.98" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="423.164" y="93.98" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
+<instance part="D2" gate="G$1" x="421.64" y="83.82" smashed="yes">
+<attribute name="NAME" x="418.211" y="79.248" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="423.545" y="79.248" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+</instance>
+<instance part="GND33" gate="1" x="421.64" y="73.66" smashed="yes">
+<attribute name="VALUE" x="421.64" y="73.406" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="SUPPLY5" gate="G$1" x="421.64" y="114.3" smashed="yes">
+<attribute name="VALUE" x="421.64" y="117.094" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -22210,14 +22311,14 @@ This is a single port, RJ45 ethernet jacks with built in transformer (magnetics)
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="GND"/>
-<wire x1="63.5" y1="48.26" x2="66.04" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="48.26" x2="58.42" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="GND8" gate="1" pin="GND"/>
-<wire x1="66.04" y1="48.26" x2="66.04" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="48.26" x2="58.42" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="2"/>
 <pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="15.24" y1="43.18" x2="15.24" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="43.18" x2="7.62" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C5" gate="G$1" pin="2"/>
@@ -22360,7 +22461,7 @@ This is a single port, RJ45 ethernet jacks with built in transformer (magnetics)
 <segment>
 <pinref part="JP5" gate="G$1" pin="1"/>
 <pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="35.56" y1="33.02" x2="35.56" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="33.02" x2="27.94" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="Q1" gate="NMOS" pin="S"/>
@@ -22372,18 +22473,23 @@ This is a single port, RJ45 ethernet jacks with built in transformer (magnetics)
 <pinref part="GND32" gate="1" pin="GND"/>
 <wire x1="119.38" y1="195.58" x2="119.38" y2="198.12" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="GND33" gate="1" pin="GND"/>
+<pinref part="D2" gate="G$1" pin="C"/>
+<wire x1="421.64" y1="76.2" x2="421.64" y2="78.74" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="VCC"/>
-<wire x1="43.18" y1="55.88" x2="40.64" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="55.88" x2="33.02" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="SUPPLY6" gate="G$1" pin="3.3V"/>
-<wire x1="40.64" y1="55.88" x2="40.64" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="55.88" x2="33.02" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY7" gate="G$1" pin="3.3V"/>
 <pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="15.24" y1="55.88" x2="15.24" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="55.88" x2="7.62" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U3" gate="U1" pin="VDD"/>
@@ -22444,7 +22550,7 @@ This is a single port, RJ45 ethernet jacks with built in transformer (magnetics)
 <segment>
 <pinref part="R22" gate="G$1" pin="1"/>
 <pinref part="SUPPLY1" gate="G$1" pin="3.3V"/>
-<wire x1="35.56" y1="68.58" x2="35.56" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="68.58" x2="27.94" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
@@ -22459,6 +22565,11 @@ This is a single port, RJ45 ethernet jacks with built in transformer (magnetics)
 <pinref part="R24" gate="G$1" pin="2"/>
 <wire x1="121.92" y1="68.58" x2="121.92" y2="71.12" width="0.1524" layer="91"/>
 <junction x="121.92" y="71.12"/>
+</segment>
+<segment>
+<pinref part="PWR_LED" gate="G$1" pin="2"/>
+<pinref part="SUPPLY5" gate="G$1" pin="3.3V"/>
+<wire x1="421.64" y1="114.3" x2="421.64" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SPI_COPI" class="0">
@@ -22633,28 +22744,28 @@ This is a single port, RJ45 ethernet jacks with built in transformer (magnetics)
 <segment>
 <pinref part="U1" gate="G$1" pin="A0"/>
 <pinref part="J11" gate="J1" pin="EEPROM_A0"/>
-<wire x1="63.5" y1="55.88" x2="71.12" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="55.88" x2="71.12" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A2" class="0">
 <segment>
 <pinref part="J11" gate="J1" pin="EEPROM_A2"/>
 <pinref part="U1" gate="G$1" pin="A2"/>
-<wire x1="63.5" y1="50.8" x2="71.12" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="50.8" x2="71.12" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A1" class="0">
 <segment>
 <pinref part="J11" gate="J1" pin="EEPROM_A1"/>
 <pinref part="U1" gate="G$1" pin="A1"/>
-<wire x1="63.5" y1="53.34" x2="71.12" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="53.34" x2="71.12" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="I2C_SCL" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="SCL"/>
-<wire x1="43.18" y1="50.8" x2="33.02" y2="50.8" width="0.1524" layer="91"/>
-<label x="33.02" y="50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="35.56" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
+<label x="25.4" y="50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="106.68" y1="81.28" x2="109.22" y2="81.28" width="0.1524" layer="91"/>
@@ -22665,8 +22776,8 @@ This is a single port, RJ45 ethernet jacks with built in transformer (magnetics)
 <net name="I2C_SDA" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="SDA"/>
-<wire x1="43.18" y1="48.26" x2="33.02" y2="48.26" width="0.1524" layer="91"/>
-<label x="33.02" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="35.56" y1="48.26" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
+<label x="25.4" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="106.68" y1="78.74" x2="109.22" y2="78.74" width="0.1524" layer="91"/>
@@ -23129,17 +23240,6 @@ This is a single port, RJ45 ethernet jacks with built in transformer (magnetics)
 <wire x1="162.56" y1="101.6" x2="165.1" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="WP"/>
-<wire x1="43.18" y1="53.34" x2="35.56" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="R22" gate="G$1" pin="2"/>
-<wire x1="35.56" y1="55.88" x2="35.56" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="JP5" gate="G$1" pin="2"/>
-<wire x1="35.56" y1="45.72" x2="35.56" y2="53.34" width="0.1524" layer="91"/>
-<junction x="35.56" y="53.34"/>
-</segment>
-</net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="LED1" gate="G$1" pin="1"/>
@@ -23160,6 +23260,38 @@ This is a single port, RJ45 ethernet jacks with built in transformer (magnetics)
 <wire x1="119.38" y1="208.28" x2="119.38" y2="210.82" width="0.1524" layer="91"/>
 <pinref part="U3" gate="U1" pin="RSVD23"/>
 <wire x1="119.38" y1="210.82" x2="127" y2="210.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$19" class="0">
+<segment>
+<pinref part="R25" gate="G$1" pin="2"/>
+<pinref part="PWR_LED" gate="G$1" pin="1"/>
+<wire x1="421.64" y1="99.06" x2="421.64" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$20" class="0">
+<segment>
+<pinref part="D2" gate="G$1" pin="A"/>
+<pinref part="R25" gate="G$1" pin="1"/>
+<wire x1="421.64" y1="86.36" x2="421.64" y2="88.9" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="EWP" class="0">
+<segment>
+<pinref part="J11" gate="J1" pin="EEPROM_WP"/>
+<wire x1="71.12" y1="48.26" x2="68.58" y2="48.26" width="0.1524" layer="91"/>
+<label x="68.58" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="WP"/>
+<wire x1="35.56" y1="53.34" x2="27.94" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="R22" gate="G$1" pin="2"/>
+<wire x1="27.94" y1="55.88" x2="27.94" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="JP5" gate="G$1" pin="2"/>
+<wire x1="27.94" y1="45.72" x2="27.94" y2="53.34" width="0.1524" layer="91"/>
+<junction x="27.94" y="53.34"/>
+<wire x1="27.94" y1="53.34" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
+<label x="25.4" y="53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>

@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,20 +53,20 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="58" name="bCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="58" name="bCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -18169,6 +18169,29 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="0.5" y1="5" x2="2.5" y2="8" layer="31"/>
 <rectangle x1="3" y1="5" x2="5" y2="8" layer="31"/>
 </package>
+<package name="SOT-23-6">
+<circle x="-1.65" y="-1" radius="0.1436" width="0.2032" layer="21"/>
+<wire x1="1.4224" y1="0.4294" x2="1.4224" y2="-0.4294" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="-0.8" x2="-1.4" y2="-0.8" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.4294" x2="-1.4224" y2="0.4294" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="0.8" x2="1.4" y2="0.8" width="0.1524" layer="51"/>
+<wire x1="1.4" y1="0.8" x2="1.4" y2="-0.8" width="0.1524" layer="51"/>
+<wire x1="-1.4" y1="0.8" x2="-1.4" y2="-0.8" width="0.1524" layer="51"/>
+<rectangle x1="-1.2" y1="-1.5" x2="-0.7" y2="-0.85" layer="51"/>
+<rectangle x1="-0.25" y1="-1.5" x2="0.25" y2="-0.85" layer="51"/>
+<rectangle x1="0.7" y1="-1.5" x2="1.2" y2="-0.85" layer="51"/>
+<rectangle x1="0.7" y1="0.85" x2="1.2" y2="1.5" layer="51"/>
+<rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
+<rectangle x1="-0.25" y1="0.85" x2="0.25" y2="1.5" layer="51"/>
+<smd name="1" x="-0.95" y="-1.3751" dx="0.55" dy="1.35" layer="1"/>
+<smd name="2" x="0" y="-1.3751" dx="0.55" dy="1.35" layer="1"/>
+<smd name="3" x="0.95" y="-1.3751" dx="0.55" dy="1.35" layer="1"/>
+<smd name="4" x="0.95" y="1.3751" dx="0.55" dy="1.35" layer="1"/>
+<smd name="5" x="0" y="1.3751" dx="0.55" dy="1.35" layer="1"/>
+<smd name="6" x="-0.95" y="1.3751" dx="0.55" dy="1.35" layer="1"/>
+<text x="-1.905" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="2.54" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="LABELED-PMOS">
@@ -18273,6 +18296,125 @@ Switches electronic signals</description>
 <text x="0.508" y="2.54" size="1.27" layer="94">D</text>
 <text x="0.508" y="-3.81" size="1.27" layer="94">S</text>
 <text x="-3.302" y="-0.508" size="1.27" layer="94" rot="R180">G</text>
+</symbol>
+<symbol name="TVS_DIODE_ARRAY">
+<circle x="-3.81" y="-0.254" radius="0.0254" width="0.254" layer="94"/>
+<circle x="-1.27" y="0.254" radius="0.0254" width="0.254" layer="94"/>
+<circle x="1.27" y="-0.254" radius="0.0254" width="0.254" layer="94"/>
+<circle x="3.81" y="0.254" radius="0.0254" width="0.254" layer="94"/>
+<circle x="-1.27" y="3.81" radius="0.0254" width="0.254" layer="94"/>
+<circle x="1.27" y="3.81" radius="0.0254" width="0.254" layer="94"/>
+<circle x="1.27" y="-3.81" radius="0.0254" width="0.254" layer="94"/>
+<circle x="-1.27" y="-3.81" radius="0.0254" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="0" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0.3302" y1="0.3302" x2="0.4318" y2="0.4318" width="0.0254" layer="94"/>
+<wire x1="-0.3302" y1="0.3302" x2="0.3302" y2="0.3302" width="0.0254" layer="94"/>
+<wire x1="-0.4318" y1="0.2286" x2="-0.3302" y2="0.3302" width="0.0254" layer="94"/>
+<wire x1="-3.4798" y1="2.8702" x2="-3.3782" y2="2.9718" width="0.0254" layer="94"/>
+<wire x1="-4.1402" y1="2.8702" x2="-3.4798" y2="2.8702" width="0.0254" layer="94"/>
+<wire x1="-4.2418" y1="2.7686" x2="-4.1402" y2="2.8702" width="0.0254" layer="94"/>
+<wire x1="-0.9398" y1="2.8702" x2="-0.8382" y2="2.9718" width="0.0254" layer="94"/>
+<wire x1="-1.6002" y1="2.8702" x2="-0.9398" y2="2.8702" width="0.0254" layer="94"/>
+<wire x1="-1.7018" y1="2.7686" x2="-1.6002" y2="2.8702" width="0.0254" layer="94"/>
+<wire x1="-1.27" y1="3.81" x2="-1.27" y2="0.254" width="0.0762" layer="94"/>
+<wire x1="-1.27" y1="0.254" x2="-1.27" y2="-3.81" width="0.0762" layer="94"/>
+<wire x1="-3.81" y1="3.81" x2="-3.81" y2="-0.254" width="0.0762" layer="94"/>
+<wire x1="-3.81" y1="-0.254" x2="-3.81" y2="-3.81" width="0.0762" layer="94"/>
+<wire x1="-3.4798" y1="-2.2098" x2="-3.3782" y2="-2.1082" width="0.0254" layer="94"/>
+<wire x1="-4.1402" y1="-2.2098" x2="-3.4798" y2="-2.2098" width="0.0254" layer="94"/>
+<wire x1="-4.2418" y1="-2.3114" x2="-4.1402" y2="-2.2098" width="0.0254" layer="94"/>
+<wire x1="-0.9398" y1="-2.2098" x2="-0.8382" y2="-2.1082" width="0.0254" layer="94"/>
+<wire x1="-1.6002" y1="-2.2098" x2="-0.9398" y2="-2.2098" width="0.0254" layer="94"/>
+<wire x1="-1.7018" y1="-2.3114" x2="-1.6002" y2="-2.2098" width="0.0254" layer="94"/>
+<wire x1="1.6002" y1="2.8702" x2="1.7018" y2="2.9718" width="0.0254" layer="94"/>
+<wire x1="0.9398" y1="2.8702" x2="1.6002" y2="2.8702" width="0.0254" layer="94"/>
+<wire x1="0.8382" y1="2.7686" x2="0.9398" y2="2.8702" width="0.0254" layer="94"/>
+<wire x1="4.1402" y1="2.8702" x2="4.2418" y2="2.9718" width="0.0254" layer="94"/>
+<wire x1="3.4798" y1="2.8702" x2="4.1402" y2="2.8702" width="0.0254" layer="94"/>
+<wire x1="3.3782" y1="2.7686" x2="3.4798" y2="2.8702" width="0.0254" layer="94"/>
+<wire x1="3.81" y1="3.81" x2="3.81" y2="0.254" width="0.0762" layer="94"/>
+<wire x1="3.81" y1="0.254" x2="3.81" y2="-3.81" width="0.0762" layer="94"/>
+<wire x1="1.27" y1="3.81" x2="1.27" y2="-0.254" width="0.0762" layer="94"/>
+<wire x1="1.27" y1="-0.254" x2="1.27" y2="-3.81" width="0.0762" layer="94"/>
+<wire x1="1.6002" y1="-2.2098" x2="1.7018" y2="-2.1082" width="0.0254" layer="94"/>
+<wire x1="0.9398" y1="-2.2098" x2="1.6002" y2="-2.2098" width="0.0254" layer="94"/>
+<wire x1="0.8382" y1="-2.3114" x2="0.9398" y2="-2.2098" width="0.0254" layer="94"/>
+<wire x1="4.1402" y1="-2.2098" x2="4.2418" y2="-2.1082" width="0.0254" layer="94"/>
+<wire x1="3.4798" y1="-2.2098" x2="4.1402" y2="-2.2098" width="0.0254" layer="94"/>
+<wire x1="3.3782" y1="-2.3114" x2="3.4798" y2="-2.2098" width="0.0254" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="-5.08" width="0.0762" layer="94"/>
+<wire x1="2.54" y1="-0.254" x2="1.27" y2="-0.254" width="0.0762" layer="94"/>
+<wire x1="2.54" y1="-0.254" x2="2.54" y2="-5.08" width="0.0762" layer="94"/>
+<wire x1="-3.81" y1="-0.254" x2="-2.54" y2="-0.254" width="0.0762" layer="94"/>
+<wire x1="-2.54" y1="-0.254" x2="-2.54" y2="-5.08" width="0.0762" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="0.254" width="0.0762" layer="94"/>
+<wire x1="-2.54" y1="0.254" x2="-1.27" y2="0.254" width="0.0762" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="0.254" width="0.0762" layer="94"/>
+<wire x1="2.54" y1="0.254" x2="3.81" y2="0.254" width="0.0762" layer="94"/>
+<wire x1="-3.81" y1="-3.81" x2="3.81" y2="-3.81" width="0.0762" layer="94"/>
+<wire x1="-3.81" y1="3.81" x2="3.81" y2="3.81" width="0.0762" layer="94"/>
+<pin name="IO1" x="-2.54" y="-7.62" visible="off" length="short" rot="R90"/>
+<pin name="IO2" x="2.54" y="-7.62" visible="off" length="short" rot="R90"/>
+<pin name="IO3" x="2.54" y="7.62" visible="off" length="short" rot="R270"/>
+<pin name="IO4" x="-2.54" y="7.62" visible="off" length="short" rot="R270"/>
+<pin name="VCC" x="0" y="7.62" visible="off" length="short" rot="R270"/>
+<pin name="VSS" x="0" y="-7.62" visible="off" length="short" rot="R90"/>
+<text x="2.54" y="-10.16" size="1.778" layer="95">&gt;Name</text>
+<text x="2.54" y="-12.7" size="1.778" layer="96">&gt;Value</text>
+<polygon width="0.0254" layer="94">
+<vertex x="-0.635" y="-0.3048"/>
+<vertex x="0" y="0.3302"/>
+<vertex x="0.635" y="-0.3048"/>
+</polygon>
+<polygon width="0.0254" layer="94">
+<vertex x="-4.445" y="2.2352"/>
+<vertex x="-3.81" y="2.8702"/>
+<vertex x="-3.175" y="2.2352"/>
+</polygon>
+<polygon width="0.0254" layer="94">
+<vertex x="-1.905" y="2.2352"/>
+<vertex x="-1.27" y="2.8702"/>
+<vertex x="-0.635" y="2.2352"/>
+</polygon>
+<polygon width="0.0254" layer="94">
+<vertex x="-4.445" y="-2.8448"/>
+<vertex x="-3.81" y="-2.2098"/>
+<vertex x="-3.175" y="-2.8448"/>
+</polygon>
+<polygon width="0.0254" layer="94">
+<vertex x="-1.905" y="-2.8448"/>
+<vertex x="-1.27" y="-2.2098"/>
+<vertex x="-0.635" y="-2.8448"/>
+</polygon>
+<polygon width="0.0254" layer="94">
+<vertex x="0.635" y="2.2352"/>
+<vertex x="1.27" y="2.8702"/>
+<vertex x="1.905" y="2.2352"/>
+</polygon>
+<polygon width="0.0254" layer="94">
+<vertex x="3.175" y="2.2352"/>
+<vertex x="3.81" y="2.8702"/>
+<vertex x="4.445" y="2.2352"/>
+</polygon>
+<polygon width="0.0254" layer="94">
+<vertex x="0.635" y="-2.8448"/>
+<vertex x="1.27" y="-2.2098"/>
+<vertex x="1.905" y="-2.8448"/>
+</polygon>
+<polygon width="0.0254" layer="94">
+<vertex x="3.175" y="-2.8448"/>
+<vertex x="3.81" y="-2.2098"/>
+<vertex x="4.445" y="-2.8448"/>
+</polygon>
 </symbol>
 </symbols>
 <devicesets>
@@ -18638,6 +18780,29 @@ Switches electronic signals</description>
 <technology name="">
 <attribute name="PROD_ID" value="TRANS-14399"/>
 <attribute name="VALUE" value="20V/0.2A/8MHz/1.2Ω/1Vth"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TVS_DIODE_ARRAY" prefix="U">
+<gates>
+<gate name="U1" symbol="TVS_DIODE_ARRAY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SMD" package="SOT-23-6">
+<connects>
+<connect gate="U1" pin="IO1" pad="1"/>
+<connect gate="U1" pin="IO2" pad="3"/>
+<connect gate="U1" pin="IO3" pad="4"/>
+<connect gate="U1" pin="IO4" pad="6"/>
+<connect gate="U1" pin="VCC" pad="5"/>
+<connect gate="U1" pin="VSS" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="IC-13538" constant="no"/>
+<attribute name="VALUE" value="ESD Diode" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -20249,7 +20414,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-5.5" y1="-7" x2="5.5" y2="-7" width="0.1778" layer="21"/>
 <wire x1="-5.5" y1="7" x2="5.5" y2="7" width="0.1778" layer="21"/>
 <wire x1="10.6" y1="-7" x2="10.6" y2="7" width="0.1778" layer="21"/>
-<circle x="-10.414" y="-7.62" radius="0.127" width="0.254" layer="21"/>
+<rectangle x1="-11.049" y1="-8.255" x2="-10.16" y2="-7.366" layer="21"/>
+<wire x1="-9.906" y1="1.778" x2="-6.35" y2="1.778" width="0.1524" layer="51"/>
+<wire x1="-6.35" y1="1.778" x2="-6.35" y2="-3.81" width="0.1524" layer="51"/>
+<wire x1="-6.35" y1="-3.81" x2="-9.906" y2="-3.81" width="0.1524" layer="51"/>
+<wire x1="-9.906" y1="-3.81" x2="-9.906" y2="1.778" width="0.1524" layer="51"/>
+<wire x1="8.001" y1="2.794" x2="9.906" y2="2.794" width="0.1524" layer="51"/>
+<wire x1="9.906" y1="2.794" x2="9.906" y2="-2.794" width="0.1524" layer="51"/>
+<wire x1="9.906" y1="-2.794" x2="8.001" y2="-2.794" width="0.1524" layer="51"/>
+<wire x1="8.001" y1="-2.794" x2="8.001" y2="2.794" width="0.1524" layer="51"/>
+<wire x1="-3.81" y1="3.81" x2="3.81" y2="3.81" width="0.1524" layer="51"/>
+<wire x1="3.81" y1="3.81" x2="3.81" y2="-3.81" width="0.1524" layer="51"/>
+<wire x1="3.81" y1="-3.81" x2="-3.81" y2="-3.81" width="0.1524" layer="51"/>
+<wire x1="-3.81" y1="-3.81" x2="-3.81" y2="3.81" width="0.1524" layer="51"/>
 </package>
 <package name="AG980X">
 <wire x1="-14.25" y1="9.25" x2="14.25" y2="9.25" width="0.05" layer="51"/>
@@ -21327,6 +21504,76 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pad name="11" x="-6.63" y="-4.06" drill="0.9" diameter="1.5"/>
 <pad name="14" x="6.63" y="-4.06" drill="0.9" diameter="1.5"/>
 </package>
+<package name="PAD.02X.02">
+<description>&lt;h3&gt;Electrically Conductive Pad 0.02" Square&lt;/h3&gt;
+Used as a test point connection for pogo pins or other debugging tools. 
+&lt;p&gt;Specifications:
+&lt;li&gt;Area: 0.02" x 0.02"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="1" x="0" y="0" dx="0.508" dy="0.508" layer="1" cream="no"/>
+</package>
+<package name="PAD.03X.03">
+<description>&lt;h3&gt;Electrically Conductive Pad 0.03" Circle&lt;/h3&gt;
+Used as a test point connection for pogo pins or other debugging tools. 
+&lt;p&gt;Specifications:
+&lt;li&gt;Area: 0.03" x 0.03"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="1" x="0" y="0" dx="0.762" dy="0.762" layer="1" roundness="100" cream="no"/>
+</package>
+<package name="PAD.03X.05">
+<description>&lt;h3&gt;Electrically Conductive Pad 0.05" Circle&lt;/h3&gt;
+Used as a test point connection for pogo pins or other debugging tools. 
+&lt;p&gt;Specifications:
+&lt;li&gt;Area: 0.05" x 0.05"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="1" x="0" y="0" dx="1.27" dy="1.27" layer="1" roundness="100" cream="no"/>
+</package>
+<package name="PAD.03X.04">
+<description>&lt;h3&gt;Electrically Conductive Pad 0.04" Circle&lt;/h3&gt;
+Used as a test point connection for pogo pins or other debugging tools. 
+&lt;p&gt;Specifications:
+&lt;li&gt;Area: 0.04" x 0.04"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="1" x="0" y="0" dx="1.016" dy="1.016" layer="1" roundness="100" cream="no"/>
+</package>
+<package name="TP_15TH">
+<description>&lt;h3&gt;Electrically Conductive Via 0.015" Drill&lt;/h3&gt;
+Used as a test point connection for pogo pins or other debugging tools. 
+&lt;p&gt;Specifications:
+&lt;li&gt;Area:0.015"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<pad name="1" x="0" y="0" drill="0.381" diameter="0.6096" stop="no"/>
+<circle x="0" y="0" radius="0.381" width="0" layer="30"/>
+</package>
+<package name="1X01_NO_SILK">
+<description>&lt;h3&gt;Plated Through Hole - No Silk Outline&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:1&lt;/li&gt;
+&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;CONN_01&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<text x="-1.27" y="1.143" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="-1.778" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MAGJACK_POE_SYMMETRICAL">
@@ -21559,6 +21806,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="5.08" y1="22.86" x2="5.08" y2="25.4" width="0.254" layer="94"/>
 <wire x1="5.08" y1="25.4" x2="7.747" y2="25.4" width="0.254" layer="94"/>
 </symbol>
+<symbol name="TEST-POINT">
+<wire x1="2.54" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="0.762" x2="3.302" y2="-0.762" width="0.1524" layer="94" curve="180"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95" font="vector">&gt;Name</text>
+<text x="-2.54" y="-2.54" size="1.778" layer="96" font="vector">&gt;Value</text>
+<pin name="1" x="0" y="0" visible="off" length="point" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="MAGJACK-POE" prefix="J">
@@ -21589,6 +21843,68 @@ This is a single port, RJ45 ethernet jacks with built in transformer (magnetics)
 <technology name="">
 <attribute name="PROD_ID" value="CONN-16253" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TEST-POINT" prefix="TP">
+<description>&lt;h3&gt;SparkFun Test Points&lt;/h3&gt;
+&lt;p&gt;Bare copper test points for troubleshooting or In-Circuit-Testing. These are used by our Production team for verifying production board runs using pogo-pins on test beds.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13284”&gt;SparkFun LSM9DS1 Breakout&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13714”&gt;SparkFun PSOC&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13879"&gt;SparkFun Load Cell Amplifier&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="TEST-POINT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="2" package="PAD.02X.02">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3" package="PAD.03X.03">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3X5" package="PAD.03X.05">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3X4" package="PAD.03X.04">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="TP_15TH_THRU" package="TP_15TH">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="POGO_PTH" package="1X01_NO_SILK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -21711,7 +22027,7 @@ This is a single port, RJ45 ethernet jacks with built in transformer (magnetics)
 <part name="C23" library="SparkFun-Capacitors" deviceset="22NF/22,000PF" device="-0603-50V-10%" value="22nF"/>
 <part name="GND26" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LEDGER" device=""/>
-<part name="JP4" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="PoE System"/>
+<part name="POE" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value=""/>
 <part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-BAT60A" value="3A/10V/280mV"/>
 <part name="GND28" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C24" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%-X7R" value="1.0uF"/>
@@ -21748,6 +22064,9 @@ This is a single port, RJ45 ethernet jacks with built in transformer (magnetics)
 <part name="D2" library="SparkFun-LED" deviceset="LED-RED" device="0603" value="RED"/>
 <part name="GND33" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="TP1" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X4"/>
+<part name="D7" library="SparkFun-DiscreteSemi" deviceset="TVS_DIODE_ARRAY" device="SMD" value="DT1042-04SO"/>
+<part name="GND-ISO2" library="SparkFun-PowerSymbols" deviceset="GND-ISO" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -21757,30 +22076,29 @@ This is a single port, RJ45 ethernet jacks with built in transformer (magnetics)
 <text x="68.834" y="121.666" size="2.54" layer="94" font="vector" align="center">MicroMod Function Connector</text>
 <text x="177.8" y="119.38" size="1.778" layer="97" font="vector" align="center">5V is isolated but noisy</text>
 <text x="348.234" y="11.176" size="2.54" layer="94">N. Seidle</text>
-<text x="421.894" y="6.096" size="2.54" layer="94">v10</text>
+<text x="421.894" y="6.096" size="2.54" layer="94">v11</text>
 <text x="78.74" y="264.16" size="2.54" layer="94" font="vector" align="center">W5500 Ethernet PHY/MAC</text>
-<wire x1="180.34" y1="137.16" x2="330.2" y2="137.16" width="0.2032" layer="97" style="longdash"/>
+<wire x1="180.34" y1="137.16" x2="337.82" y2="137.16" width="0.2032" layer="97" style="longdash"/>
 <text x="307.594" y="124.206" size="2.54" layer="94" font="vector" align="center">Power Enable</text>
 <text x="27.94" y="200.66" size="1.778" layer="97" font="vector" align="center">Default: PMODE 111
 10/100 Auto-Negotiate</text>
 <text x="259.08" y="259.08" size="2.54" layer="94" font="vector" align="center">Jack + Magnetics</text>
 <wire x1="180.34" y1="137.16" x2="180.34" y2="279.4" width="0.2032" layer="97" style="longdash"/>
-<wire x1="431.8" y1="137.16" x2="330.2" y2="137.16" width="0.2032" layer="97" style="longdash"/>
+<wire x1="431.8" y1="137.16" x2="337.82" y2="137.16" width="0.2032" layer="97" style="longdash"/>
 <wire x1="180.34" y1="137.16" x2="0" y2="137.16" width="0.2032" layer="97" style="longdash"/>
-<wire x1="330.2" y1="137.16" x2="330.2" y2="279.4" width="0.2032" layer="97" style="longdash"/>
+<wire x1="337.82" y1="137.16" x2="337.82" y2="279.4" width="0.2032" layer="97" style="longdash"/>
 <text x="236.22" y="71.12" size="1.778" layer="97" font="vector" align="center">Dummy Load: 100mA</text>
-<text x="53.34" y="287.02" size="1.27" layer="91">Add EEPROM WP connection</text>
 </plain>
 <instances>
-<instance part="C13" gate="G$1" x="368.3" y="99.06" smashed="yes">
-<attribute name="NAME" x="369.824" y="101.981" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="369.824" y="96.901" size="1.778" layer="96" font="vector"/>
+<instance part="C13" gate="G$1" x="355.6" y="99.06" smashed="yes">
+<attribute name="NAME" x="357.124" y="101.981" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="357.124" y="96.901" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="GND21" gate="1" x="91.44" y="233.68" smashed="yes">
 <attribute name="VALUE" x="91.44" y="233.426" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND22" gate="1" x="368.3" y="91.44" smashed="yes">
-<attribute name="VALUE" x="368.3" y="91.186" size="1.778" layer="96" align="top-center"/>
+<instance part="GND22" gate="1" x="355.6" y="91.44" smashed="yes">
+<attribute name="VALUE" x="355.6" y="91.186" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="FD1" gate="G$1" x="426.72" y="30.48" smashed="yes"/>
 <instance part="FD2" gate="G$1" x="429.26" y="30.48" smashed="yes"/>
@@ -21794,9 +22112,8 @@ This is a single port, RJ45 ethernet jacks with built in transformer (magnetics)
 <attribute name="NAME" x="100.584" y="244.094" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="100.33" y="239.268" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="MEAS" gate="JP1" x="350.52" y="106.68" smashed="yes">
-<attribute name="NAME" x="347.726" y="108.458" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="347.98" y="104.14" size="1.778" layer="96" font="vector" align="top-left"/>
+<instance part="MEAS" gate="JP1" x="337.82" y="106.68" smashed="yes">
+<attribute name="NAME" x="335.026" y="108.458" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="GND6" gate="1" x="99.06" y="233.68" smashed="yes">
 <attribute name="VALUE" x="99.06" y="233.426" size="1.778" layer="96" align="top-center"/>
@@ -21804,7 +22121,6 @@ This is a single port, RJ45 ethernet jacks with built in transformer (magnetics)
 <instance part="LOGO3" gate="G$1" x="419.1" y="45.72" smashed="yes"/>
 <instance part="POE_LED" gate="G$1" x="254" y="101.6" smashed="yes" rot="R90">
 <attribute name="NAME" x="251.968" y="96.774" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="256.54" y="91.44" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
 <instance part="R11" gate="G$1" x="254" y="88.9" smashed="yes" rot="R90">
 <attribute name="NAME" x="252.476" y="88.9" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
@@ -21817,11 +22133,11 @@ This is a single port, RJ45 ethernet jacks with built in transformer (magnetics)
 <instance part="GND27" gate="1" x="254" y="68.58" smashed="yes">
 <attribute name="VALUE" x="254" y="68.326" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SUPPLY2" gate="G$1" x="342.9" y="109.22" smashed="yes">
-<attribute name="VALUE" x="342.9" y="112.014" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY2" gate="G$1" x="330.2" y="109.22" smashed="yes">
+<attribute name="VALUE" x="330.2" y="112.014" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY3" gate="G$1" x="358.14" y="109.22" smashed="yes">
-<attribute name="VALUE" x="358.14" y="112.014" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY3" gate="G$1" x="345.44" y="109.22" smashed="yes">
+<attribute name="VALUE" x="345.44" y="112.014" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="J11" gate="J1" x="88.9" y="68.58" smashed="yes">
 <attribute name="NAME" x="73.66" y="97.028" size="1.778" layer="95"/>
@@ -21845,12 +22161,12 @@ This is a single port, RJ45 ethernet jacks with built in transformer (magnetics)
 <instance part="GND7" gate="1" x="307.34" y="73.66" smashed="yes">
 <attribute name="VALUE" x="307.34" y="73.406" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="C3" gate="G$1" x="358.14" y="99.06" smashed="yes" rot="MR0">
-<attribute name="NAME" x="359.664" y="101.854" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="359.41" y="97.028" size="1.778" layer="96" font="vector"/>
+<instance part="C3" gate="G$1" x="345.44" y="99.06" smashed="yes" rot="MR0">
+<attribute name="NAME" x="346.964" y="101.854" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="346.71" y="97.028" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="GND4" gate="1" x="358.14" y="91.44" smashed="yes">
-<attribute name="VALUE" x="358.14" y="91.186" size="1.778" layer="96" align="top-center"/>
+<instance part="GND4" gate="1" x="345.44" y="91.44" smashed="yes">
+<attribute name="VALUE" x="345.44" y="91.186" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="U1" gate="G$1" x="45.72" y="50.8" smashed="yes" rot="MR0">
 <attribute name="NAME" x="38.354" y="58.928" size="1.778" layer="95"/>
@@ -21920,12 +22236,12 @@ This is a single port, RJ45 ethernet jacks with built in transformer (magnetics)
 <instance part="GND13" gate="1" x="195.58" y="93.98" smashed="yes">
 <attribute name="VALUE" x="195.58" y="93.726" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="U4" gate="G$1" x="396.24" y="101.6" smashed="yes">
-<attribute name="NAME" x="388.62" y="109.474" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="388.62" y="93.726" size="1.778" layer="96" font="vector" align="top-left"/>
+<instance part="U4" gate="G$1" x="383.54" y="101.6" smashed="yes">
+<attribute name="NAME" x="375.92" y="109.474" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="375.92" y="93.726" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
-<instance part="SUPPLY8" gate="G$1" x="408.94" y="109.22" smashed="yes">
-<attribute name="VALUE" x="408.94" y="112.014" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY8" gate="G$1" x="396.24" y="109.22" smashed="yes">
+<attribute name="VALUE" x="396.24" y="112.014" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY9" gate="G$1" x="124.46" y="251.46" smashed="yes">
 <attribute name="VALUE" x="124.46" y="254.254" size="1.778" layer="96" align="bottom-center"/>
@@ -22047,9 +22363,9 @@ This is a single port, RJ45 ethernet jacks with built in transformer (magnetics)
 <instance part="GND24" gate="1" x="93.98" y="193.04" smashed="yes">
 <attribute name="VALUE" x="93.98" y="192.786" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="R13" gate="R1" x="302.26" y="205.74" smashed="yes" rot="MR90">
-<attribute name="NAME" x="302.514" y="210.312" size="1.778" layer="95" font="vector" rot="MR90" align="bottom-center"/>
-<attribute name="VALUE" x="302.514" y="201.422" size="1.778" layer="96" font="vector" rot="MR270" align="top-center"/>
+<instance part="R13" gate="R1" x="312.42" y="205.74" smashed="yes" rot="MR90">
+<attribute name="NAME" x="312.674" y="210.312" size="1.778" layer="95" font="vector" rot="MR90" align="bottom-center"/>
+<attribute name="VALUE" x="312.674" y="201.422" size="1.778" layer="96" font="vector" rot="MR270" align="top-center"/>
 </instance>
 <instance part="GND-ISO1" gate="G$1" x="243.84" y="180.34" smashed="yes">
 <attribute name="VALUE" x="243.84" y="178.562" size="1.778" layer="96" align="top-center"/>
@@ -22064,59 +22380,59 @@ This is a single port, RJ45 ethernet jacks with built in transformer (magnetics)
 <instance part="SUPPLY17" gate="G$1" x="256.54" y="238.76" smashed="yes">
 <attribute name="VALUE" x="256.54" y="241.554" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="R14" gate="G$1" x="309.88" y="226.06" smashed="yes" rot="MR0">
-<attribute name="NAME" x="314.452" y="226.314" size="1.778" layer="95" font="vector" rot="MR0" align="bottom-center"/>
-<attribute name="VALUE" x="305.816" y="226.314" size="1.778" layer="96" font="vector" rot="MR180" align="top-center"/>
+<instance part="R14" gate="G$1" x="320.04" y="226.06" smashed="yes" rot="MR0">
+<attribute name="NAME" x="324.612" y="226.314" size="1.778" layer="95" font="vector" rot="MR0" align="bottom-center"/>
+<attribute name="VALUE" x="315.976" y="226.314" size="1.778" layer="96" font="vector" rot="MR180" align="top-center"/>
 </instance>
-<instance part="R15" gate="G$1" x="309.88" y="223.52" smashed="yes" rot="MR0">
-<attribute name="NAME" x="314.452" y="223.774" size="1.778" layer="95" font="vector" rot="MR0" align="bottom-center"/>
-<attribute name="VALUE" x="305.816" y="223.774" size="1.778" layer="96" font="vector" rot="MR180" align="top-center"/>
+<instance part="R15" gate="G$1" x="320.04" y="223.52" smashed="yes" rot="MR0">
+<attribute name="NAME" x="324.612" y="223.774" size="1.778" layer="95" font="vector" rot="MR0" align="bottom-center"/>
+<attribute name="VALUE" x="315.976" y="223.774" size="1.778" layer="96" font="vector" rot="MR180" align="top-center"/>
 </instance>
-<instance part="R16" gate="G$1" x="309.88" y="215.9" smashed="yes" rot="MR0">
-<attribute name="NAME" x="314.452" y="216.154" size="1.778" layer="95" font="vector" rot="MR0" align="bottom-center"/>
-<attribute name="VALUE" x="305.816" y="216.154" size="1.778" layer="96" font="vector" rot="MR180" align="top-center"/>
+<instance part="R16" gate="G$1" x="320.04" y="215.9" smashed="yes" rot="MR0">
+<attribute name="NAME" x="324.612" y="216.154" size="1.778" layer="95" font="vector" rot="MR0" align="bottom-center"/>
+<attribute name="VALUE" x="315.976" y="216.154" size="1.778" layer="96" font="vector" rot="MR180" align="top-center"/>
 </instance>
-<instance part="R17" gate="G$1" x="309.88" y="213.36" smashed="yes" rot="MR0">
-<attribute name="NAME" x="314.452" y="213.614" size="1.778" layer="95" font="vector" rot="MR0" align="bottom-center"/>
-<attribute name="VALUE" x="305.816" y="213.614" size="1.778" layer="96" font="vector" rot="MR180" align="top-center"/>
+<instance part="R17" gate="G$1" x="320.04" y="213.36" smashed="yes" rot="MR0">
+<attribute name="NAME" x="324.612" y="213.614" size="1.778" layer="95" font="vector" rot="MR0" align="bottom-center"/>
+<attribute name="VALUE" x="315.976" y="213.614" size="1.778" layer="96" font="vector" rot="MR180" align="top-center"/>
 </instance>
-<instance part="R18" gate="R1" x="299.72" y="205.74" smashed="yes" rot="MR90">
-<attribute name="NAME" x="299.974" y="210.312" size="1.778" layer="95" font="vector" rot="MR90" align="bottom-center"/>
-<attribute name="VALUE" x="299.974" y="201.422" size="1.778" layer="96" font="vector" rot="MR270" align="top-center"/>
+<instance part="R18" gate="R1" x="309.88" y="205.74" smashed="yes" rot="MR90">
+<attribute name="NAME" x="310.134" y="210.312" size="1.778" layer="95" font="vector" rot="MR90" align="bottom-center"/>
+<attribute name="VALUE" x="310.134" y="201.422" size="1.778" layer="96" font="vector" rot="MR270" align="top-center"/>
 </instance>
-<instance part="C20" gate="G$1" x="302.26" y="190.5" smashed="yes" rot="MR0">
-<attribute name="NAME" x="300.736" y="193.421" size="1.778" layer="95" font="vector" rot="MR0"/>
-<attribute name="VALUE" x="300.736" y="188.341" size="1.778" layer="96" font="vector" rot="MR0"/>
+<instance part="C20" gate="G$1" x="312.42" y="190.5" smashed="yes" rot="MR0">
+<attribute name="NAME" x="310.896" y="193.421" size="1.778" layer="95" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="310.896" y="188.341" size="1.778" layer="96" font="vector" rot="MR0"/>
 </instance>
-<instance part="GND14" gate="1" x="302.26" y="182.88" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="302.26" y="182.626" size="1.778" layer="96" rot="MR0" align="top-center"/>
+<instance part="GND14" gate="1" x="312.42" y="182.88" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="312.42" y="182.626" size="1.778" layer="96" rot="MR0" align="top-center"/>
 </instance>
-<instance part="C21" gate="C1" x="292.1" y="213.36" smashed="yes" rot="MR90">
-<attribute name="NAME" x="298.196" y="213.614" size="1.778" layer="95" font="vector" rot="MR0"/>
-<attribute name="VALUE" x="291.846" y="213.614" size="1.778" layer="96" font="vector" rot="MR0"/>
+<instance part="C21" gate="C1" x="302.26" y="213.36" smashed="yes" rot="MR90">
+<attribute name="NAME" x="308.356" y="213.614" size="1.778" layer="95" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="302.006" y="213.614" size="1.778" layer="96" font="vector" rot="MR0"/>
 </instance>
-<instance part="C22" gate="C1" x="292.1" y="215.9" smashed="yes" rot="MR90">
-<attribute name="NAME" x="298.196" y="216.154" size="1.778" layer="95" font="vector" rot="MR0"/>
-<attribute name="VALUE" x="291.846" y="216.154" size="1.778" layer="96" font="vector" rot="MR0"/>
+<instance part="C22" gate="C1" x="302.26" y="215.9" smashed="yes" rot="MR90">
+<attribute name="NAME" x="308.356" y="216.154" size="1.778" layer="95" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="302.006" y="216.154" size="1.778" layer="96" font="vector" rot="MR0"/>
 </instance>
-<instance part="R19" gate="R1" x="299.72" y="233.68" smashed="yes" rot="MR90">
-<attribute name="NAME" x="299.974" y="238.252" size="1.778" layer="95" font="vector" rot="MR90" align="bottom-center"/>
-<attribute name="VALUE" x="299.974" y="229.362" size="1.778" layer="96" font="vector" rot="MR270" align="top-center"/>
+<instance part="R19" gate="R1" x="309.88" y="233.68" smashed="yes" rot="MR90">
+<attribute name="NAME" x="310.134" y="238.252" size="1.778" layer="95" font="vector" rot="MR90" align="bottom-center"/>
+<attribute name="VALUE" x="310.134" y="229.362" size="1.778" layer="96" font="vector" rot="MR270" align="top-center"/>
 </instance>
-<instance part="R20" gate="R1" x="297.18" y="233.68" smashed="yes" rot="MR90">
-<attribute name="NAME" x="297.434" y="238.252" size="1.778" layer="95" font="vector" rot="MR90" align="bottom-center"/>
-<attribute name="VALUE" x="297.434" y="229.362" size="1.778" layer="96" font="vector" rot="MR270" align="top-center"/>
+<instance part="R20" gate="R1" x="307.34" y="233.68" smashed="yes" rot="MR90">
+<attribute name="NAME" x="307.594" y="238.252" size="1.778" layer="95" font="vector" rot="MR90" align="bottom-center"/>
+<attribute name="VALUE" x="307.594" y="229.362" size="1.778" layer="96" font="vector" rot="MR270" align="top-center"/>
 </instance>
-<instance part="R21" gate="G$1" x="294.64" y="233.68" smashed="yes" rot="MR90">
-<attribute name="NAME" x="294.894" y="238.252" size="1.778" layer="95" font="vector" rot="MR90" align="bottom-center"/>
-<attribute name="VALUE" x="294.894" y="229.362" size="1.778" layer="96" font="vector" rot="MR270" align="top-center"/>
+<instance part="R21" gate="G$1" x="304.8" y="233.68" smashed="yes" rot="MR90">
+<attribute name="NAME" x="305.054" y="238.252" size="1.778" layer="95" font="vector" rot="MR90" align="bottom-center"/>
+<attribute name="VALUE" x="305.054" y="229.362" size="1.778" layer="96" font="vector" rot="MR270" align="top-center"/>
 </instance>
-<instance part="C23" gate="G$1" x="279.4" y="203.2" smashed="yes" rot="MR0">
-<attribute name="NAME" x="277.876" y="206.121" size="1.778" layer="95" font="vector" rot="MR0"/>
-<attribute name="VALUE" x="277.876" y="201.041" size="1.778" layer="96" font="vector" rot="MR0"/>
+<instance part="C23" gate="G$1" x="289.56" y="203.2" smashed="yes" rot="MR0">
+<attribute name="NAME" x="288.036" y="206.121" size="1.778" layer="95" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="288.036" y="201.041" size="1.778" layer="96" font="vector" rot="MR0"/>
 </instance>
-<instance part="GND26" gate="1" x="279.4" y="195.58" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="279.4" y="195.326" size="1.778" layer="96" rot="MR0" align="top-center"/>
+<instance part="GND26" gate="1" x="289.56" y="195.58" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="289.56" y="195.326" size="1.778" layer="96" rot="MR0" align="top-center"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
 <instance part="FRAME1" gate="G$2" x="330.2" y="0" smashed="yes">
@@ -22126,26 +22442,25 @@ This is a single port, RJ45 ethernet jacks with built in transformer (magnetics)
 <attribute name="DESIGNER" x="353.314" y="11.176" size="2.7432" layer="94" font="vector"/>
 <attribute name="REV" x="419.1" y="6.604" size="2.7432" layer="94" font="vector"/>
 </instance>
-<instance part="JP4" gate="G$1" x="269.24" y="109.22" smashed="yes">
+<instance part="POE" gate="G$1" x="269.24" y="109.22" smashed="yes">
 <attribute name="NAME" x="267.716" y="110.998" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="263.652" y="106.68" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
 <instance part="D1" gate="G$1" x="259.08" y="109.22" smashed="yes">
 <attribute name="NAME" x="256.54" y="111.252" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="248.158" y="115.57" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
-<instance part="GND28" gate="1" x="383.54" y="91.44" smashed="yes">
-<attribute name="VALUE" x="383.54" y="91.186" size="1.778" layer="96" align="top-center"/>
+<instance part="GND28" gate="1" x="370.84" y="91.44" smashed="yes">
+<attribute name="VALUE" x="370.84" y="91.186" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="C24" gate="G$1" x="408.94" y="99.06" smashed="yes">
-<attribute name="NAME" x="410.464" y="101.981" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="410.464" y="96.901" size="1.778" layer="96" font="vector"/>
+<instance part="C24" gate="G$1" x="396.24" y="99.06" smashed="yes">
+<attribute name="NAME" x="397.764" y="101.981" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="397.764" y="96.901" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="GND5" gate="1" x="408.94" y="91.44" smashed="yes">
-<attribute name="VALUE" x="408.94" y="91.186" size="1.778" layer="96" align="top-center"/>
+<instance part="GND5" gate="1" x="396.24" y="91.44" smashed="yes">
+<attribute name="VALUE" x="396.24" y="91.186" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="U$4" gate="G$1" x="294.64" y="243.84" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="294.64" y="246.634" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
+<instance part="U$4" gate="G$1" x="304.8" y="243.84" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="304.8" y="246.634" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
 </instance>
 <instance part="U5" gate="U1" x="175.26" y="106.68" smashed="yes">
 <attribute name="NAME" x="167.64" y="112.014" size="1.778" layer="95"/>
@@ -22182,18 +22497,15 @@ This is a single port, RJ45 ethernet jacks with built in transformer (magnetics)
 </instance>
 <instance part="ISO1" gate="JP1" x="157.48" y="109.22" smashed="yes">
 <attribute name="NAME" x="154.686" y="110.998" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="154.94" y="106.68" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
 <instance part="LOAD" gate="G$1" x="243.84" y="101.6" smashed="yes" rot="R90">
 <attribute name="NAME" x="241.808" y="99.06" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="246.38" y="91.44" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
 <instance part="GND31" gate="1" x="243.84" y="78.74" smashed="yes">
 <attribute name="VALUE" x="243.84" y="78.486" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="ISO2" gate="JP1" x="157.48" y="101.6" smashed="yes">
 <attribute name="NAME" x="154.686" y="103.378" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="154.94" y="99.06" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
 <instance part="R22" gate="G$1" x="27.94" y="60.96" smashed="yes" rot="R270">
 <attribute name="NAME" x="23.876" y="61.214" size="1.778" layer="95" font="vector" align="bottom-center"/>
@@ -22215,11 +22527,9 @@ This is a single port, RJ45 ethernet jacks with built in transformer (magnetics)
 </instance>
 <instance part="LED1" gate="G$1" x="264.16" y="233.68" smashed="yes">
 <attribute name="NAME" x="261.366" y="235.458" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="261.62" y="231.14" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
 <instance part="LED2" gate="G$1" x="264.16" y="228.6" smashed="yes">
 <attribute name="NAME" x="261.366" y="230.378" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="261.62" y="226.06" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
 <instance part="R4" gate="G$1" x="116.84" y="63.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="116.586" y="68.58" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
@@ -22245,7 +22555,6 @@ This is a single port, RJ45 ethernet jacks with built in transformer (magnetics)
 </instance>
 <instance part="PWR_LED" gate="G$1" x="421.64" y="106.68" smashed="yes" rot="R90">
 <attribute name="NAME" x="419.608" y="101.854" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="424.18" y="96.52" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
 <instance part="R25" gate="G$1" x="421.64" y="93.98" smashed="yes" rot="R90">
 <attribute name="NAME" x="420.116" y="93.98" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
@@ -22260,6 +22569,16 @@ This is a single port, RJ45 ethernet jacks with built in transformer (magnetics)
 </instance>
 <instance part="SUPPLY5" gate="G$1" x="421.64" y="114.3" smashed="yes">
 <attribute name="VALUE" x="421.64" y="117.094" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="TP1" gate="G$1" x="398.78" y="106.68" smashed="yes">
+<attribute name="NAME" x="402.59" y="105.918" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="D7" gate="U1" x="269.24" y="203.2" smashed="yes" rot="R270">
+<attribute name="NAME" x="264.16" y="208.788" size="1.778" layer="95"/>
+<attribute name="VALUE" x="263.144" y="195.326" size="1.778" layer="96"/>
+</instance>
+<instance part="GND-ISO2" gate="G$1" x="259.08" y="195.58" smashed="yes">
+<attribute name="VALUE" x="259.08" y="193.802" size="1.778" layer="96" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -22281,7 +22600,7 @@ This is a single port, RJ45 ethernet jacks with built in transformer (magnetics)
 <segment>
 <pinref part="C13" gate="G$1" pin="2"/>
 <pinref part="GND22" gate="1" pin="GND"/>
-<wire x1="368.3" y1="93.98" x2="368.3" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="93.98" x2="355.6" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="71.12" y1="38.1" x2="68.58" y2="38.1" width="0.1524" layer="91"/>
@@ -22307,7 +22626,7 @@ This is a single port, RJ45 ethernet jacks with built in transformer (magnetics)
 <segment>
 <pinref part="C3" gate="G$1" pin="2"/>
 <pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="358.14" y1="93.98" x2="358.14" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="93.98" x2="345.44" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="GND"/>
@@ -22420,23 +22739,23 @@ This is a single port, RJ45 ethernet jacks with built in transformer (magnetics)
 <segment>
 <pinref part="C20" gate="G$1" pin="2"/>
 <pinref part="GND14" gate="1" pin="GND"/>
-<wire x1="302.26" y1="185.42" x2="302.26" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="185.42" x2="312.42" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C23" gate="G$1" pin="2"/>
 <pinref part="GND26" gate="1" pin="GND"/>
-<wire x1="279.4" y1="198.12" x2="279.4" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="198.12" x2="289.56" y2="200.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="GND"/>
-<wire x1="386.08" y1="96.52" x2="383.54" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="383.54" y1="96.52" x2="383.54" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="373.38" y1="96.52" x2="370.84" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="370.84" y1="96.52" x2="370.84" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="GND28" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C24" gate="G$1" pin="2"/>
 <pinref part="GND5" gate="1" pin="GND"/>
-<wire x1="408.94" y1="93.98" x2="408.94" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="396.24" y1="93.98" x2="396.24" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C7" gate="G$1" pin="2"/>
@@ -22541,11 +22860,13 @@ This is a single port, RJ45 ethernet jacks with built in transformer (magnetics)
 <segment>
 <pinref part="C24" gate="G$1" pin="1"/>
 <pinref part="SUPPLY8" gate="G$1" pin="3.3V"/>
-<wire x1="408.94" y1="109.22" x2="408.94" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="396.24" y1="109.22" x2="396.24" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="U4" gate="G$1" pin="OUT"/>
-<wire x1="408.94" y1="106.68" x2="408.94" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="403.86" y1="106.68" x2="408.94" y2="106.68" width="0.1524" layer="91"/>
-<junction x="408.94" y="106.68"/>
+<wire x1="396.24" y1="106.68" x2="396.24" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="391.16" y1="106.68" x2="396.24" y2="106.68" width="0.1524" layer="91"/>
+<junction x="396.24" y="106.68"/>
+<pinref part="TP1" gate="G$1" pin="1"/>
+<wire x1="398.78" y1="106.68" x2="396.24" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R22" gate="G$1" pin="1"/>
@@ -22599,18 +22920,18 @@ This is a single port, RJ45 ethernet jacks with built in transformer (magnetics)
 <net name="5V" class="0">
 <segment>
 <pinref part="SUPPLY3" gate="G$1" pin="5V"/>
-<wire x1="358.14" y1="106.68" x2="358.14" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="106.68" x2="345.44" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="MEAS" gate="JP1" pin="2"/>
-<wire x1="355.6" y1="106.68" x2="358.14" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="342.9" y1="106.68" x2="345.44" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="U4" gate="G$1" pin="IN"/>
-<junction x="358.14" y="106.68"/>
+<junction x="345.44" y="106.68"/>
 <pinref part="C13" gate="G$1" pin="1"/>
-<wire x1="358.14" y1="106.68" x2="368.3" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="368.3" y1="106.68" x2="386.08" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="368.3" y1="104.14" x2="368.3" y2="106.68" width="0.1524" layer="91"/>
-<junction x="368.3" y="106.68"/>
+<wire x1="345.44" y1="106.68" x2="355.6" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="106.68" x2="373.38" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="104.14" x2="355.6" y2="106.68" width="0.1524" layer="91"/>
+<junction x="355.6" y="106.68"/>
 <pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="358.14" y1="104.14" x2="358.14" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="104.14" x2="345.44" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -22662,9 +22983,9 @@ This is a single port, RJ45 ethernet jacks with built in transformer (magnetics)
 <net name="VCC" class="0">
 <segment>
 <pinref part="MEAS" gate="JP1" pin="1"/>
-<wire x1="345.44" y1="106.68" x2="342.9" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="332.74" y1="106.68" x2="330.2" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="SUPPLY2" gate="G$1" pin="VCC"/>
-<wire x1="342.9" y1="106.68" x2="342.9" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="330.2" y1="106.68" x2="330.2" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY10" gate="G$1" pin="VCC"/>
@@ -22689,7 +23010,7 @@ This is a single port, RJ45 ethernet jacks with built in transformer (magnetics)
 <junction x="302.26" y="106.68"/>
 </segment>
 <segment>
-<pinref part="JP4" gate="G$1" pin="2"/>
+<pinref part="POE" gate="G$1" pin="2"/>
 <wire x1="274.32" y1="109.22" x2="276.86" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="276.86" y1="109.22" x2="276.86" y2="111.76" width="0.1524" layer="91"/>
 <label x="276.86" y="111.76" size="1.27" layer="95" rot="R90" xref="yes"/>
@@ -22712,8 +23033,8 @@ This is a single port, RJ45 ethernet jacks with built in transformer (magnetics)
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="EN"/>
-<wire x1="386.08" y1="101.6" x2="383.54" y2="101.6" width="0.1524" layer="91"/>
-<label x="383.54" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="373.38" y1="101.6" x2="370.84" y2="101.6" width="0.1524" layer="91"/>
+<label x="370.84" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -22954,17 +23275,17 @@ This is a single port, RJ45 ethernet jacks with built in transformer (magnetics)
 </segment>
 <segment>
 <pinref part="R19" gate="R1" pin="2"/>
-<wire x1="299.72" y1="241.3" x2="299.72" y2="238.76" width="0.1524" layer="91"/>
-<wire x1="299.72" y1="241.3" x2="297.18" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="241.3" x2="309.88" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="241.3" x2="307.34" y2="241.3" width="0.1524" layer="91"/>
 <pinref part="R20" gate="R1" pin="2"/>
-<wire x1="297.18" y1="241.3" x2="297.18" y2="238.76" width="0.1524" layer="91"/>
-<wire x1="297.18" y1="241.3" x2="294.64" y2="241.3" width="0.1524" layer="91"/>
-<junction x="297.18" y="241.3"/>
-<wire x1="294.64" y1="241.3" x2="294.64" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="241.3" x2="307.34" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="241.3" x2="304.8" y2="241.3" width="0.1524" layer="91"/>
+<junction x="307.34" y="241.3"/>
+<wire x1="304.8" y1="241.3" x2="304.8" y2="238.76" width="0.1524" layer="91"/>
 <pinref part="R21" gate="G$1" pin="2"/>
 <pinref part="U$4" gate="G$1" pin="VCCA"/>
-<wire x1="294.64" y1="243.84" x2="294.64" y2="241.3" width="0.1524" layer="91"/>
-<junction x="294.64" y="241.3"/>
+<wire x1="304.8" y1="243.84" x2="304.8" y2="241.3" width="0.1524" layer="91"/>
+<junction x="304.8" y="241.3"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -23054,12 +23375,18 @@ This is a single port, RJ45 ethernet jacks with built in transformer (magnetics)
 <wire x1="246.38" y1="185.42" x2="243.84" y2="185.42" width="0.1524" layer="91"/>
 <junction x="243.84" y="185.42"/>
 </segment>
+<segment>
+<pinref part="D7" gate="U1" pin="VSS"/>
+<wire x1="261.62" y1="203.2" x2="259.08" y2="203.2" width="0.1524" layer="91"/>
+<pinref part="GND-ISO2" gate="G$1" pin="GND-ISO"/>
+<wire x1="259.08" y1="203.2" x2="259.08" y2="198.12" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="TXP" class="0">
 <segment>
 <pinref part="R14" gate="G$1" pin="1"/>
-<wire x1="317.5" y1="226.06" x2="314.96" y2="226.06" width="0.1524" layer="91"/>
-<label x="317.5" y="226.06" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<wire x1="327.66" y1="226.06" x2="325.12" y2="226.06" width="0.1524" layer="91"/>
+<label x="327.66" y="226.06" size="1.27" layer="95" rot="MR180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U3" gate="U1" pin="TXP"/>
@@ -23071,18 +23398,23 @@ This is a single port, RJ45 ethernet jacks with built in transformer (magnetics)
 <segment>
 <pinref part="R14" gate="G$1" pin="2"/>
 <pinref part="J1" gate="J1" pin="TD+"/>
-<wire x1="304.8" y1="226.06" x2="299.72" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="226.06" x2="309.88" y2="226.06" width="0.1524" layer="91"/>
 <pinref part="R19" gate="R1" pin="1"/>
-<wire x1="299.72" y1="226.06" x2="241.3" y2="226.06" width="0.1524" layer="91"/>
-<wire x1="299.72" y1="228.6" x2="299.72" y2="226.06" width="0.1524" layer="91"/>
-<junction x="299.72" y="226.06"/>
+<wire x1="309.88" y1="226.06" x2="259.08" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="226.06" x2="241.3" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="228.6" x2="309.88" y2="226.06" width="0.1524" layer="91"/>
+<junction x="309.88" y="226.06"/>
+<pinref part="D7" gate="U1" pin="IO1"/>
+<wire x1="261.62" y1="205.74" x2="259.08" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="205.74" x2="259.08" y2="226.06" width="0.1524" layer="91"/>
+<junction x="259.08" y="226.06"/>
 </segment>
 </net>
 <net name="TXN" class="0">
 <segment>
 <pinref part="R15" gate="G$1" pin="1"/>
-<wire x1="317.5" y1="223.52" x2="314.96" y2="223.52" width="0.1524" layer="91"/>
-<label x="317.5" y="223.52" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<wire x1="327.66" y1="223.52" x2="325.12" y2="223.52" width="0.1524" layer="91"/>
+<label x="327.66" y="223.52" size="1.27" layer="95" rot="MR180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U3" gate="U1" pin="TXN"/>
@@ -23093,8 +23425,8 @@ This is a single port, RJ45 ethernet jacks with built in transformer (magnetics)
 <net name="RXP" class="0">
 <segment>
 <pinref part="R16" gate="G$1" pin="1"/>
-<wire x1="317.5" y1="215.9" x2="314.96" y2="215.9" width="0.1524" layer="91"/>
-<label x="317.5" y="215.9" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<wire x1="327.66" y1="215.9" x2="325.12" y2="215.9" width="0.1524" layer="91"/>
+<label x="327.66" y="215.9" size="1.27" layer="95" rot="MR180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U3" gate="U1" pin="RXP"/>
@@ -23105,8 +23437,8 @@ This is a single port, RJ45 ethernet jacks with built in transformer (magnetics)
 <net name="RXN" class="0">
 <segment>
 <pinref part="R17" gate="G$1" pin="1"/>
-<wire x1="317.5" y1="213.36" x2="314.96" y2="213.36" width="0.1524" layer="91"/>
-<label x="317.5" y="213.36" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<wire x1="327.66" y1="213.36" x2="325.12" y2="213.36" width="0.1524" layer="91"/>
+<label x="327.66" y="213.36" size="1.27" layer="95" rot="MR180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U3" gate="U1" pin="RXN"/>
@@ -23117,86 +23449,101 @@ This is a single port, RJ45 ethernet jacks with built in transformer (magnetics)
 <net name="RXN1" class="0">
 <segment>
 <pinref part="R17" gate="G$1" pin="2"/>
-<wire x1="304.8" y1="213.36" x2="299.72" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="213.36" x2="309.88" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="R18" gate="R1" pin="2"/>
-<wire x1="299.72" y1="213.36" x2="297.18" y2="213.36" width="0.1524" layer="91"/>
-<wire x1="299.72" y1="210.82" x2="299.72" y2="213.36" width="0.1524" layer="91"/>
-<junction x="299.72" y="213.36"/>
+<wire x1="309.88" y1="213.36" x2="307.34" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="210.82" x2="309.88" y2="213.36" width="0.1524" layer="91"/>
+<junction x="309.88" y="213.36"/>
 <pinref part="C21" gate="C1" pin="1"/>
 </segment>
 </net>
 <net name="TD-" class="0">
 <segment>
 <pinref part="R15" gate="G$1" pin="2"/>
-<wire x1="304.8" y1="223.52" x2="297.18" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="223.52" x2="307.34" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="J1" gate="J1" pin="TD-"/>
-<wire x1="241.3" y1="220.98" x2="297.18" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="297.18" y1="220.98" x2="297.18" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="220.98" x2="279.4" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="220.98" x2="307.34" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="220.98" x2="307.34" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="R20" gate="R1" pin="1"/>
-<wire x1="297.18" y1="228.6" x2="297.18" y2="223.52" width="0.1524" layer="91"/>
-<junction x="297.18" y="223.52"/>
+<wire x1="307.34" y1="228.6" x2="307.34" y2="223.52" width="0.1524" layer="91"/>
+<junction x="307.34" y="223.52"/>
+<pinref part="D7" gate="U1" pin="IO4"/>
+<wire x1="276.86" y1="205.74" x2="279.4" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="205.74" x2="279.4" y2="220.98" width="0.1524" layer="91"/>
+<junction x="279.4" y="220.98"/>
 </segment>
 </net>
 <net name="RXP1" class="0">
 <segment>
 <pinref part="R16" gate="G$1" pin="2"/>
-<wire x1="304.8" y1="215.9" x2="302.26" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="215.9" x2="312.42" y2="215.9" width="0.1524" layer="91"/>
 <pinref part="R13" gate="R1" pin="2"/>
-<wire x1="302.26" y1="215.9" x2="297.18" y2="215.9" width="0.1524" layer="91"/>
-<wire x1="302.26" y1="210.82" x2="302.26" y2="215.9" width="0.1524" layer="91"/>
-<junction x="302.26" y="215.9"/>
+<wire x1="312.42" y1="215.9" x2="307.34" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="210.82" x2="312.42" y2="215.9" width="0.1524" layer="91"/>
+<junction x="312.42" y="215.9"/>
 <pinref part="C22" gate="C1" pin="1"/>
 </segment>
 </net>
 <net name="RCT" class="0">
 <segment>
 <pinref part="R18" gate="R1" pin="1"/>
-<wire x1="299.72" y1="200.66" x2="299.72" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="299.72" y1="198.12" x2="302.26" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="200.66" x2="309.88" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="198.12" x2="312.42" y2="198.12" width="0.1524" layer="91"/>
 <pinref part="R13" gate="R1" pin="1"/>
-<wire x1="302.26" y1="198.12" x2="302.26" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="198.12" x2="312.42" y2="200.66" width="0.1524" layer="91"/>
 <pinref part="C20" gate="G$1" pin="1"/>
-<wire x1="302.26" y1="195.58" x2="302.26" y2="198.12" width="0.1524" layer="91"/>
-<junction x="302.26" y="198.12"/>
-<wire x1="299.72" y1="198.12" x2="284.48" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="284.48" y1="198.12" x2="284.48" y2="213.36" width="0.1524" layer="91"/>
-<junction x="299.72" y="198.12"/>
+<wire x1="312.42" y1="195.58" x2="312.42" y2="198.12" width="0.1524" layer="91"/>
+<junction x="312.42" y="198.12"/>
+<wire x1="309.88" y1="198.12" x2="294.64" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="198.12" x2="294.64" y2="213.36" width="0.1524" layer="91"/>
+<junction x="309.88" y="198.12"/>
 <pinref part="J1" gate="J1" pin="RCT"/>
-<wire x1="284.48" y1="213.36" x2="241.3" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="213.36" x2="241.3" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RD+" class="0">
 <segment>
 <pinref part="C22" gate="C1" pin="2"/>
 <pinref part="J1" gate="J1" pin="RD+"/>
-<wire x1="289.56" y1="215.9" x2="241.3" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="215.9" x2="256.54" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="215.9" x2="241.3" y2="215.9" width="0.1524" layer="91"/>
+<pinref part="D7" gate="U1" pin="IO2"/>
+<wire x1="261.62" y1="200.66" x2="256.54" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="200.66" x2="256.54" y2="215.9" width="0.1524" layer="91"/>
+<junction x="256.54" y="215.9"/>
 </segment>
 </net>
 <net name="TCT" class="0">
 <segment>
 <pinref part="J1" gate="J1" pin="TCT"/>
 <pinref part="R21" gate="G$1" pin="1"/>
-<wire x1="241.3" y1="223.52" x2="279.4" y2="223.52" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="223.52" x2="294.64" y2="223.52" width="0.1524" layer="91"/>
-<wire x1="294.64" y1="223.52" x2="294.64" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="223.52" x2="289.56" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="223.52" x2="304.8" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="223.52" x2="304.8" y2="228.6" width="0.1524" layer="91"/>
 <pinref part="C23" gate="G$1" pin="1"/>
-<wire x1="279.4" y1="208.28" x2="279.4" y2="223.52" width="0.1524" layer="91"/>
-<junction x="279.4" y="223.52"/>
+<wire x1="289.56" y1="208.28" x2="289.56" y2="223.52" width="0.1524" layer="91"/>
+<junction x="289.56" y="223.52"/>
 </segment>
 </net>
 <net name="RD-" class="0">
 <segment>
 <pinref part="J1" gate="J1" pin="RD-"/>
-<wire x1="241.3" y1="210.82" x2="287.02" y2="210.82" width="0.1524" layer="91"/>
-<wire x1="287.02" y1="210.82" x2="287.02" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="210.82" x2="281.94" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="210.82" x2="297.18" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="210.82" x2="297.18" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="C21" gate="C1" pin="2"/>
-<wire x1="287.02" y1="213.36" x2="289.56" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="213.36" x2="299.72" y2="213.36" width="0.1524" layer="91"/>
+<pinref part="D7" gate="U1" pin="IO3"/>
+<wire x1="276.86" y1="200.66" x2="281.94" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="200.66" x2="281.94" y2="210.82" width="0.1524" layer="91"/>
+<junction x="281.94" y="210.82"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
-<pinref part="JP4" gate="G$1" pin="1"/>
+<pinref part="POE" gate="G$1" pin="1"/>
 <wire x1="261.62" y1="109.22" x2="264.16" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -23226,14 +23573,14 @@ This is a single port, RJ45 ethernet jacks with built in transformer (magnetics)
 <pinref part="R2" gate="R1" pin="2"/>
 </segment>
 </net>
-<net name="N$14" class="0">
+<net name="PW1+" class="0">
 <segment>
 <pinref part="U5" gate="U1" pin="VIN+"/>
 <pinref part="ISO1" gate="JP1" pin="2"/>
 <wire x1="162.56" y1="109.22" x2="165.1" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$18" class="0">
+<net name="PW1-" class="0">
 <segment>
 <pinref part="U5" gate="U1" pin="VIN-"/>
 <pinref part="ISO2" gate="JP1" pin="2"/>

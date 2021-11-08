@@ -250,6 +250,7 @@
 <dimension x1="0.05" y1="65" x2="19" y2="59" x3="9.525" y3="66.75" textsize="1" textratio="15" layer="47" dtype="horizontal" width="0.05"/>
 <dimension x1="26.9" y1="69.65" x2="26.9" y2="65" x3="31.2" y3="67.325" textsize="1" textratio="15" layer="47" dtype="vertical" width="0.05"/>
 <dimension x1="11.15" y1="69.65" x2="26.85" y2="69.65" x3="19" y3="70.6" textsize="1" textratio="15" layer="47" dtype="horizontal" width="0.05"/>
+<text x="19" y="76" size="1" layer="47" font="vector" ratio="15" align="center">Dimensions are in mm</text>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -9030,6 +9031,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="6,1,c02f6f4392fc7e1a"/>
 <approved hash="6,1,791ca49baf0fd178"/>
 <approved hash="6,1,e593ce1850ea16f5"/>
+<approved hash="21,19,568baa8e548e567a"/>
 </errors>
 </board>
 </drawing>

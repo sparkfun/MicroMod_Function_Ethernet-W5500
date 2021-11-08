@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top/Horz" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom/Vert" color="1" fill="1" visible="yes" active="yes"/>
@@ -39,8 +39,8 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
@@ -244,6 +244,12 @@
 <vertex x="28.448" y="53.34"/>
 <vertex x="28.448" y="52.324"/>
 </polygon>
+<dimension x1="0.05" y1="65" x2="0.05" y2="4" x3="-2" y3="34.5" textsize="1" textratio="15" layer="47" width="0.05"/>
+<dimension x1="0.05" y1="65" x2="38.05" y2="65" x3="19.05" y3="72.75" textsize="1" textratio="15" layer="47" width="0.05"/>
+<dimension x1="0" y1="0" x2="0" y2="4" x3="-2" y3="2" textsize="1" textratio="15" layer="47" width="0.05"/>
+<dimension x1="0.05" y1="65" x2="19" y2="59" x3="9.525" y3="66.75" textsize="1" textratio="15" layer="47" dtype="horizontal" width="0.05"/>
+<dimension x1="26.9" y1="69.65" x2="26.9" y2="65" x3="31.2" y3="67.325" textsize="1" textratio="15" layer="47" dtype="vertical" width="0.05"/>
+<dimension x1="11.15" y1="69.65" x2="26.85" y2="69.65" x3="19" y3="70.6" textsize="1" textratio="15" layer="47" dtype="horizontal" width="0.05"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -9008,73 +9014,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="19,16,cecb6c2b6582019e"/>
 <approved hash="19,16,86cb641977b0ef9e"/>
 <approved hash="19,16,215314356e4d918d"/>
-<approved hash="21,19,568baa8e548e567a"/>
 <approved hash="21,19,584d5833a4315a31"/>
-<approved hash="5,1,e9b3b2b5633d6d4c"/>
-<approved hash="5,1,2db374b7123f3e4c"/>
-<approved hash="5,1,edb3b4438acb964c"/>
-<approved hash="5,1,e9b2b0ba0c32184d"/>
-<approved hash="5,1,d58df1cf0e59236d"/>
-<approved hash="5,1,2db36ab2893a8b4c"/>
-<approved hash="5,1,69b3484c38c45c4c"/>
-<approved hash="5,1,69b32a4fafc7a14c"/>
-<approved hash="5,1,55b334495ec1724c"/>
-<approved hash="5,1,35b37244f5ccff4c"/>
-<approved hash="5,1,55b33263c5ebef4c"/>
-<approved hash="5,1,29b3704664ce704c"/>
-<approved hash="5,1,e9b2b2401bc8054d"/>
-<approved hash="5,1,29b37052dcdac84c"/>
-<approved hash="5,1,e9b3b26c73e49d4c"/>
-<approved hash="5,1,edb2b46fe2e7ee4d"/>
-<approved hash="5,1,69b34a66bfeed14c"/>
-<approved hash="5,1,edb3b47a9af2864c"/>
-<approved hash="5,1,edb2ba75f1fc134d"/>
-<approved hash="5,1,29b37877a0ffa44c"/>
-<approved hash="5,1,65b3320e3d86274c"/>
-<approved hash="5,1,75b334602ee8224c"/>
-<approved hash="5,1,29b37009ec81f84c"/>
-<approved hash="5,1,29b3720b43834d4c"/>
-<approved hash="5,1,edb0b406f28d1e4f"/>
-<approved hash="5,1,edb3aa0069886b4c"/>
-<approved hash="5,1,29b34802188a3c4c"/>
-<approved hash="5,1,29b3707d74f5604c"/>
-<approved hash="5,1,29b37278ebf0f54c"/>
-<approved hash="5,1,2db34a6999e1bb4c"/>
-<approved hash="5,1,29b3686b08e30c4c"/>
-<approved hash="5,1,29b37a7117f9094c"/>
-<approved hash="5,1,65b3340cc684da4c"/>
-<approved hash="5,16,690230fbb3d1d1cc"/>
-<approved hash="5,16,2b027cf964d362cc"/>
-<approved hash="5,16,6d0234d435fe5bcc"/>
-<approved hash="5,16,6b0230d1a6fbaccc"/>
-<approved hash="5,16,2b027c20540a72cc"/>
-<approved hash="5,16,ed01bcde01f407cf"/>
-<approved hash="5,16,29027022e308e1cc"/>
 <approved hash="5,16,c65a6c419135c1f5"/>
-<approved hash="5,16,230274d698fc86cc"/>
-<approved hash="5,16,2d0274c0adeab3cc"/>
-<approved hash="5,16,6b0230fe5ed444cc"/>
-<approved hash="5,16,6d023427dd0dc3cc"/>
-<approved hash="5,16,6b0230254e0f54cc"/>
-<approved hash="5,16,e302b0db72f168cc"/>
-<approved hash="5,16,210270d927f335cc"/>
-<approved hash="5,16,330274c330e93ecc"/>
-<approved hash="5,16,2d027cf6d1dcf7cc"/>
-<approved hash="5,16,e302b0f482de98cc"/>
-<approved hash="5,16,e101b0f1f7dbe5cf"/>
-<approved hash="5,16,230274efa8c5b6cc"/>
-<approved hash="5,16,2d0274ed05c70bcc"/>
-<approved hash="5,16,6b0230eab6c0dccc"/>
-<approved hash="5,16,690230e82bc229cc"/>
-<approved hash="5,16,2b024ce5dccffacc"/>
-<approved hash="5,16,2d026ce349c94fcc"/>
-<approved hash="5,16,d30270e0facb10cd"/>
-<approved hash="5,16,f102b09e6fb49dcc"/>
-<approved hash="5,16,d305b49c00b62ecb"/>
-<approved hash="5,16,2d027499bdb3a3cc"/>
-<approved hash="5,16,2b0270972ebd34cc"/>
-<approved hash="5,16,69023094c3bec1cc"/>
-<approved hash="5,16,3e7f261dada107ca"/>
 <approved hash="19,16,af0ef1723c2acff0"/>
 <approved hash="19,16,01b873315f608173"/>
 <approved hash="19,16,5e26553dd33df1a6"/>

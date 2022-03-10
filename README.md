@@ -1,7 +1,7 @@
 SparkFun MicroMod Ethernet Function Board - W5500
 ========================================
 
-[![SparkFun MicroMod Ethernet Function Board - W5500](https://cdn.sparkfun.com/assets/parts/1/8/2/4/3/18708-SparkFun_MicroMod_Ethernet_Function_Board_-_W5500-01.jpg)](https://www.sparkfun.com/products/18708)
+[![SparkFun MicroMod Ethernet Function Board - W5500](https://cdn.sparkfun.com/assets/parts/1/8/2/4/3/18708-SparkFun_MicroMod_Ethernet_Function_Board_-_W5500-01a.jpg)](https://www.sparkfun.com/products/18708)
 
 [*SparkFun MicroMod Ethernet Function Board - W5500 (COM-18708)*](https://www.sparkfun.com/products/18708)
 
